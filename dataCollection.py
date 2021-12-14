@@ -1,5 +1,6 @@
 import cv2
 import os
+import matplotlib.pyplot as plt
 
 
 def func():
@@ -24,4 +25,4 @@ def func():
                 print("Wrote " + str(len(faces)) + " images from:", picCount)
 
 
-func()
+# func()
